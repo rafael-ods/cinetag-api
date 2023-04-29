@@ -1,0 +1,14 @@
+@import-normalize;
+@import 'variable';
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: $font-primary;
+    background-color: $color-white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

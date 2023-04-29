@@ -1,0 +1,12 @@
+@import '../../style/variable';
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: $color-black;
+    padding: 33px 0px;
+    &__title {
+        @include typography-default
+    }
+}

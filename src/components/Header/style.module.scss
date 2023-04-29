@@ -1,0 +1,35 @@
+@import '../../style/variable';
+
+
+.header {
+    background: $color-black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 20em;
+
+    @media screen and (max-width: 1024px) {
+        padding: 10px;
+        justify-content: center;
+        &__logo {
+            display: none;
+        }
+    }
+
+    .menu {
+        .menuList {
+            display: flex;
+            column-gap: 19px;
+
+            &__link {
+                @include typography-default;
+                text-decoration: none;
+            }
+            .menuList__active {
+                color: $color-white;
+                transition: .3s ease-in-out;
+            }
+        }
+    }
+}
+

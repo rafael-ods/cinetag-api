@@ -1,0 +1,28 @@
+$font-primary: 'Montserrat',
+sans-serif;
+$color-white: #FFFFFF;
+$color-black: #000000;
+$color-gray: #9c9c9c;
+$color-gray-ligth: #E2E2E2;
+
+
+@mixin typography-default {
+    color: $color-gray;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+@mixin title-default {
+    color: $color-black;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+@mixin link-card-style {
+    color: $color-black;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}

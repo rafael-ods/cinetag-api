@@ -1,0 +1,29 @@
+@import '../../style/variable';
+
+.card {
+        padding: 0 0 1em 0;
+        margin-top: .5em;
+        width: 282px;
+        height: 541px;
+        background-color: $color-gray-ligth;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    &__image {
+        width: 100%;
+    }
+
+    &__title {
+        @include link-card-style;
+        padding:  1em;
+    }
+
+    &__icon {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        margin-left: 12px;
+        font-size: 24px;
+    }
+
+}
